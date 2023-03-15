@@ -170,8 +170,65 @@ main .home h1 {
     font-family: "TitilliumWeb-Black";
     font-size: 40px;
     box-shadow: 2px red;
+
     
 }
+
+main .home .botao-sobre {
+    background-color: #F9AA01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main .home .botao-sobre a {
+    color: black;
+    font-family: "TitiliumWeb-Black";
+}
+
+
+.Jogos {
+    width: 375px;
+    height: 590px;
+    background-color: #1B1426;
+   
+}
+
+.Jogos img{
+    display: flex;
+    flex-direction: column;
+    padding-top: 69px;
+}
+
+.inscricao {
+    height: 1535px;
+    background-color: #F9AA01;
+
+}
+
+.inscricao img {
+    display: flex;
+    
+}
+
+.joguetes {
+    background-image: linear-gradient(to right bottom,rgba(122 ,49 ,236 , 0.2),rgba(47, 7, 109, 0.83));
+    width: 231px;
+    height: 300px;
+    
+}
+
+
+@media screen and (min-width:1200px)  {
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+
+        border: 3px dotted yellowgreen;
+    }
+    
+}
+
 
     
 
